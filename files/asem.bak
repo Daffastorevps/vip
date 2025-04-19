@@ -1,0 +1,7 @@
+
+REPO="https://raw.githubusercontent.com/xyzval/VVIP/main/"
+
+
+
+wget -q -O /etc/default/dropbear "${REPO}cfg_conf_js/dropbear.conf"
+chmod +x /etc/default/dropbear
