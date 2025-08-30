@@ -20,7 +20,7 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="-1002680839785"
+CHATID="-1002004275752"
 KEY="8076854928:AAFXe-M6bXV-oy817Wi60FGtixWeSCzITMY"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
@@ -267,7 +267,7 @@ if [[ $host == "1" ]]; then
 echo -e "\e[1;32m====================================================$NC"
 echo -e "\e[1;36m     INPUT SUBDOMAIN $NC"
 echo -e "\e[1;32m====================================================$NC"
-echo -e "\033[91;1m contoh subdomain :\033[0m \033[93 dp75x.daffastore.xyz\033[0m"
+echo -e "\033[91;1m contoh subdomain :\033[0m \033[93m dp75x.daffastore.xyz\033[0m"
 read -p "SUBDOMAIN :  " host1
 echo "IP=" >> /var/lib/kyt/ipvps.conf
 echo $host1 > /etc/xray/domain
